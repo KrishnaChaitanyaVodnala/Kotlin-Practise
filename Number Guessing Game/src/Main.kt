@@ -1,3 +1,4 @@
+// Week 1, Day 3 — Kotlin conditionals, when expressions, loops
 fun main() {
     val secret = (1..100).random()
     var attempts = 0
