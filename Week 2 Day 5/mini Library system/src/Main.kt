@@ -1,4 +1,10 @@
 // Week 2, Day 5 — mini Library System
+
+// - Implemented data class Book with availability tracking
+// - Member class with borrow/return logic and borrowed books list
+// - Library class with member registration and book management
+// - Tested edge cases: unavailable books, multiple borrows/returns
+
 data class Book(val title: String, val author: String) {
     var isAvailable: Boolean = true
 }
