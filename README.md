@@ -1,7 +1,7 @@
-# 🚀 Kotlin Practice
+# Kotlin Practice
 
 A structured collection of Kotlin projects built while learning Kotlin fundamentals — week by week, day by day.  
-Each project lives in its own IntelliJ IDEA module. Source code is always at `<Project>/src/Main.kt`.
+Each project is an independent IntelliJ IDEA module. Source code is always at `<Project>/src/Main.kt`.
 
 ---
 
@@ -24,18 +24,18 @@ Kotlin/
 ├── Week 2 Day 4/
 │   ├── Abstract Class/
 │   └── Interface/
-└── Week 2 Day 5/
-    └── mini Library system/
+├── Week 2 Day 5/
+│   └── mini Library system/
+├── Week 3 Day 1/
+│   └── NullSafety-Kotlin-Practice/
+└── Week 3 Day 2/
+    └── Main.kt
 ```
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. Open any project folder in **IntelliJ IDEA**.
-2. The source file is located at `src/Main.kt`.
-3. Click the ▶️ **Run** button next to `fun main()`, or use `Shift + F10`.
-
----
-
-> **Note:** Each project is an independent IntelliJ IDEA module. Source code is always at `<ProjectFolder>/src/Main.kt`.
+2. Locate `src/Main.kt` inside the project.
+3. Click ▶️ **Run** next to `fun main()`, or press `Shift + F10`.
