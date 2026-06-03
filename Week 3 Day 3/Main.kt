@@ -1,3 +1,5 @@
+// Week 3, Day 3 — Higher-order functions practice
+
 // 1. Write 5 higher-order functions from scratch — each takes a lambda and calls it. Don't just copy, think about the function type signature first.
 fun repeatTwice(action: () -> Unit) {
     action()
