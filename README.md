@@ -27,7 +27,7 @@
 ## ✨ What's Inside
 
 Every folder is a self-contained IntelliJ IDEA module you can open and run instantly.  
-The curriculum progresses from basic control flow to advanced type systems, each concept demonstrated with a **real mini-project** — not toy snippets.
+The curriculum progresses from basic control flow to advanced type systems, each concept demonstrated with a **progressively complex exercises** — not toy snippets.
 
 | Concept Area | Topics Covered |
 |:---|:---|
