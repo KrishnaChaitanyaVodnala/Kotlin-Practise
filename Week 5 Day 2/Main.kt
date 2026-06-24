@@ -1,14 +1,9 @@
 // Week 5, Day 2 - Extension functions
-fun String.isPalindrome(): Boolean {
-    return this == this.reversed()
-}
+fun String.isPalindrome(): Boolean = (this == this.reversed())
 
-fun String.wordCount(): Int {
-    return this.trim().split("\\s+".toRegex()).size
-}
+fun String.wordCount(): Int = this.trim().split("\\s+".toRegex()).size
 
 fun Int.isEven(): Boolean = this%2 == 0
-// Hey, I knew that the previous functions can also be written in single line. I am making this for my future reference
 
 fun Int.factorial(): Long {
     require(this >= 0)
@@ -20,7 +15,7 @@ fun Int.factorial(): Long {
 }
 
 fun List<Int>.secondLargest(): Int {
-// I knew that I won't pass 0 - sized list
+    if(this.size == 0) error("Invalid Entry!")
     if(this.size == 1) return this[0]
     val sorted = this.sortedDescending()
     return sorted[1]

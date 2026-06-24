@@ -5,33 +5,33 @@ class bankAccount(val name: String) {
     }
 
     var age: Int = 0
-    var bal: Int = 0
+    var balance: Int = 0
 
     constructor(name: String, age: Int): this(name) {
         this.age = age
     }
 
-    constructor(name: String, age: Int, bal: Int): this(name) {
+    constructor(name: String, age: Int, balance: Int): this(name) {
         this.age = age
-        this.bal = bal
+        this.balance = balance
     }
 
-    fun deposit(amnt: Int) {
-        bal += amnt
-        println("Your current balance is $bal")
+    fun deposit(amount: Int) {
+        balance += amount
+        println("Your current balance is $balance")
     }
 
-    fun Withdraw(amnt: Int) {
-        if(bal - amnt >= 0) {
-            bal -= amnt
-            println("Your current balance is $bal")
+    fun Withdraw(amount: Int) {
+        if(balance - amount >= 0) {
+            balance -= amount
+            println("Your current balance is $balance")
         }else {
             println("Insufficient funds!")
         }
     }
 
     fun checkBalance() {
-        println("Your current balance is $bal")
+        println("Your current balance is $balance")
     }
 }
 

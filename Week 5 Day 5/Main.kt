@@ -92,7 +92,7 @@ fun main() {
 // 4. A UserSession should only ever have one instance in the app. Implement it as a Kotlin object with a currentUser: String? property and a login(name: String) / logout() method. Then explain in a comment why you used object and not companion object.
 object UserSession {
     var currentUser: String? = null
-        private set // Since currentUser can be edited only inside the class
+        private set // Since currentUser can be edited only inside the class/object
     fun login(name: String) { 
 	currentUser = name 
 	println("Logged in as $name") 

@@ -6,7 +6,11 @@ fun main() {
     println("====================")
     while(true) {
         print("Guess the number: ")
-        val guess = readln().toInt()
+        val guess = readln().toIntOrNull()
+        if (guess == null) {
+            println("Invalid input! Try again")
+            continue
+        }
         attempts++
         when {
             guess > secret -> println("You are too high")

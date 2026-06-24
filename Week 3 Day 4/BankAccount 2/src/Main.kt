@@ -1,5 +1,5 @@
 // Week 3, Day 4 — BankAccount 2
-class BankAccount(val name: String, var age: Int? = null, initialBalance: Int = 0) {
+class BankAccount(val name: String, var age: Int? = null, val initialBalance: Int = 0) {
     init {
         println("Welcome $name to Karimnagar District Bank")
     }
