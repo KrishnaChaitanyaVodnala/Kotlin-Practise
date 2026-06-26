@@ -1,6 +1,6 @@
 # Kotlin-Practise
 
-#### This Repository consists of all the program files that I have made while learning Koltin.
+#### This is the practise I have done while learning Kotlin. Now I can write most of the foundational codes in Kotlin.
 
 ## Introduction: 
 - Each folder in this repo is clearly classified based on the programs that are built on the particular day. <br>
@@ -75,7 +75,7 @@ Kotlin-Practise/
 │   └── Contactbook using Map.kt           
 │
 ├── Week 5 Day 1/
-│   └── GetDataConnection.../             
+│   └── GetDataConnection with companion factory methods and readln input.kt/             
 │
 ├── Week 5 Day 2/
 │   └── Main.kt                            
@@ -99,7 +99,7 @@ Kotlin-Practise/
 
 ---
 
-## If you wanna see my codes running checkout: (User Instructions)
+## If you want to see my code running checkout: (User Instructions)
 
 1.  There are many sub-folder which are self-contained IntelliJ IDEA modules you can open and run instantly.<br>
 2.  Some are just .kt files you can just copy the content and see them running in any online Kotlin compilers.<br>
@@ -143,10 +143,10 @@ Data Structure Comp. ──►  Practice Exercises
 |:---|:---|
 | **Kotlin** | Language |
 | **IntelliJ IDEA** | IDE & project modules |
-| **Git** | Version control — 36 commits tracking the learning journey |
+| **Git** | Version control  |
 
 ---
 
 <p align="center">
-  <sub>Built with fire and curiosity · <strong>Krishna Chaitanya Vodnala</strong></sub>
+  <sub>Built by · <strong>Krishna Chaitanya Vodnala</strong></sub>
 </p>
